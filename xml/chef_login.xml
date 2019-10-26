@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/hg"
+    tools:context="com.example.kaustubh.homechef.ChefLogin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CHEF SIDE"
+            android:textStyle="italic"
+            android:textSize="40dp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:text="Email"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#000000"
+            android:inputType="textEmailAddress"
+            android:textSize="25dp"
+            android:id="@+id/username"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:text="Password"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#000000"
+            android:textSize="25dp"
+            android:inputType="textPassword"
+            android:id="@+id/password"/>
+
+        <Button
+            android:id="@+id/chefLogin"
+            android:textColor="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:textStyle="italic"
+            android:layout_marginTop="50dp"
+            />
+
+        <Button
+            android:id="@+id/chefRegister"
+            android:layout_width="match_parent"
+            android:layout_marginTop="300dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            style="?android:attr/buttonBarButtonStyle"
+            android:text="DON'T HAVE AN ACCOUNT??"
+            android:textStyle="italic"
+            android:background="?attr/selectableItemBackground"
+            />
+
+
+</LinearLayout>
+
+
+
